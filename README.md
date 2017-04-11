@@ -52,9 +52,9 @@ Update your settings in the generated `app/config/buzzi.php` configuration file.
 return [
 
     'api' => [
-    	'id'     => env('BUZZI_API_ID',     '<your-buzzi-api-id-here>'),
-		'secret' => env('BUZZI_API_SECRET', '<your-buzzi-api-secret-here>')
-	]
+        'id'     => env('BUZZI_API_ID',     '<your-buzzi-api-id-here>'),
+        'secret' => env('BUZZI_API_SECRET', '<your-buzzi-api-secret-here>')
+    ]
 
 ];
 ```
