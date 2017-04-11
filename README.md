@@ -6,7 +6,7 @@ Buzzi for the PHP framework Laravel
 The recommended way to install swarming/buzzi-laravel is [through composer](http://getcomposer.org).
 
 ```bash
-composer require PUBLISHED PACKAGE COMING SOON
+composer require swarming/buzzi-laravel
 ```
 
 ### Lumen
