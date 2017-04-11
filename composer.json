@@ -1,0 +1,23 @@
+{
+  "name": "swarming/buzzi-laravel",
+  "homepage": "http://swarmingtech.com",
+  "description": "A service which wraps the functionality of the Buzzi PHPSDK for easy use within the Laravel framework.",
+  "keywords": ["buzzi", "sdk", "php", "laravel"],
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Zachary Prisk",
+      "homepage": "http://swarmingtech.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.4.*",
+    "buzzi-io/buzzi-sdk-php": "0.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Buzzi\\Laravel\\": "src/Buzzi/Laravel/"
+    }
+  }
+}
