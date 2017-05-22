@@ -38,7 +38,7 @@ class ServiceProvider extends LaravelServiceProvider
 	{
 		$this->app->singleton('buzzi', function($app)
 		{
-			return new Service(Config::get('buzzi.api.id'), Config::get('buzzi.api.secret'));
+			return new Service(['auth_id' => Config::get('buzzi.api.id'), 'auth_secret' => Config::get('buzzi.api.secret')]);
 		});
 	}
 

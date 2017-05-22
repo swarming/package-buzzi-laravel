@@ -13,7 +13,7 @@
   ],
   "require": {
     "laravel/framework": "5.4.*",
-    "buzzi-io/buzzi-sdk-php": "0.0.1"
+    "buzzi-io/buzzi-sdk-php": "0.1.0"
   },
   "autoload": {
     "psr-4": {
